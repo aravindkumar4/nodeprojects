@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.render('about',{
         title: "about Collection"
-    });
+      });
 });
 app.get('/api',(req,res)=>{
     res.json({
